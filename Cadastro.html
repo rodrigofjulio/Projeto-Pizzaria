@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header class="cabecalho">
+			<div class="logo"> </div>	
+			<div class="banner"></div>	
+	</header>
+
+	<CENTER>
+
+<form method="get" action="cadastro.php">
+
+	<h2>Cadastro dos Pedidos</h2>
+	<br>
+<p class="pizza">
+	<input type="text" name="nome" placeholder="Nome"><br><br>
+	    <select name="sabor">
+	        <option value="Vazio" disabled="disabled" selected="selected">Pizza</option>
+		       <option value="calabresa">Calabresa</option>
+	           <option value="4 queijos">4 Queijos</option>
+        </select>
+        <select name="bebida">
+            <option value="Vazio" disabled="disabled" selected="selected">Refresco</option>
+        	   <option value="maracuja">Maracujá</option>
+        	   <option value="guarana">Guaraná</option>
+    	   </select><br><br>
+    	</p>
+    	<p class="botao">
+                <input type="submit" value="Enviar Pedido">
+            </p>
+
+</form>
+</body>
+</html>

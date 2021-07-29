@@ -1,0 +1,89 @@
+/* RESET */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+
+body {background: #EEE8AA;}
+
+img {max-width: 100%}
+
+ul {list-style: none;}
+
+a {text-decoration: none;}
+
+h2 {font-size: 1.5em; color: #333;}
+
+p {font-size: 1em; color: #777}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+
+	width: 100%;
+	float: right;
+	padding: 10px 10%;
+	background: url(../img/banner.jpg) no-repeat center center;
+}
+
+.logo {
+
+  	width: 150px;
+  	height: 137px;
+ 	background: url(../img/logo.jpg) no-repeat center center;
+ 	background-size: 100%;
+ 	float: left;
+ 	border-radius: 50%;
+}
+
+form {
+
+	font-size: 20px;
+	background: #FF6347;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+
+}
+
+h2 {
+
+	color: #333;
+	font-weight: bold;
+
+}
+
+.pizza input {
+
+	border-radius: 5px;
+	border: 1px solid;
+
+}
+
+
+.botao input {
+
+	background: #069;
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid;
+	color: #FFF;
+	cursor: pointer;
+
+}
+
+.botao input:hover {
+
+	background: #078;
+
+}
+
+
